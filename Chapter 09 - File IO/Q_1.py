@@ -15,5 +15,5 @@ word = input("Enter the word you want to check: ")
 
 checkForTwinkle(word)
 
-
+print("testing")
 
