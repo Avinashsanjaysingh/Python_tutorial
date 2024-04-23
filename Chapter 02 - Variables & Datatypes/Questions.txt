@@ -1,0 +1,12 @@
+1.  Write a python program to add two numbers.
+
+2.  Write a python program to find remainder when a number is divided by 2.
+
+3.  Check the type of the variable assigned using input() function.
+
+4.  Use comparision operators to find out whether a given variable 'a' is greater than 'b' or not. (Take a=34 and b=80)
+
+5.  Write a python program to find average of two numbers entered by the user.
+
+6.  Write a python program to calculate square of a number by the user.
+
