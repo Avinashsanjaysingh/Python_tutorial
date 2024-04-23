@@ -6,7 +6,7 @@ def game():
     return random.randint(1, 100)
 
 try:
-    with open("Hi-Score.txt", "r") as file:
+    with open("Chapter 09 - File IO/Hi-Score.txt", "r") as file:
         high_score_str = file.read().strip()
         if high_score_str:  # Check if the string is not empty
             HighScore = int(high_score_str)
@@ -14,7 +14,7 @@ try:
             HighScore = 0  # Set default high score if file is empty
 except FileNotFoundError:
     HighScore = 0
-    with open("Hi-Score.txt", "w") as file:
+    with open("Chapter 09 - File IO/Hi-Score.txt", "w") as file:
         file.write(str(HighScore))
 
 Score = game()
@@ -22,7 +22,7 @@ Score = game()
 if Score <= HighScore:
     print(f"Your score is {Score} and the Hi-Score is {HighScore}.")
 else:
-    with open("Hi-Score.txt", "w") as file:
+    with open("Chapter 09 - File IO/Hi-Score.txt", "w") as file:
         file.write(str(Score))
     print(f"Your score is {Score} and you made a new Hi-Score.\nPrevious Hi-Score was {HighScore}.")
 
