@@ -27,4 +27,3 @@ else:
     print(f"Your score is {Score} and you made a new Hi-Score.\nPrevious Hi-Score was {HighScore}.")
 
 
-

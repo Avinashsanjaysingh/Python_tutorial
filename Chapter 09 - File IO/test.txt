@@ -1,4 +1,7 @@
+python
 hi hihihihello
 
 twinkle twinkle little star.
 
+this is made for python.
+Python is awesome programming language.
